@@ -1,0 +1,12 @@
+#include <bits/stdc++.h> 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int principal, timeperiod;
+    double rateofinterest;
+    cin >> principal >> rateofinterest >> timeperiod;
+    double simpleinterest = (principal * rateofinterest * timeperiod) / 100;
+    cout << (int)simpleinterest;
+    return 0;
+}
